@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320" role="img" aria-label="Agentic One Piece — Straw Hat Jolly Roger banner">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b2a4a"/>
+      <stop offset="1" stop-color="#123a63"/>
+    </linearGradient>
+    <linearGradient id="straw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4c542"/>
+      <stop offset="1" stop-color="#e0a82e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="320" fill="url(#sky)"/>
+
+  <!-- crossbones -->
+  <g stroke="#f5f1e6" stroke-width="22" stroke-linecap="round" opacity="0.95">
+    <line x1="120" y1="120" x2="280" y2="240"/>
+    <line x1="280" y1="120" x2="120" y2="240"/>
+  </g>
+  <g fill="#f5f1e6">
+    <circle cx="116" cy="116" r="20"/><circle cx="116" cy="244" r="20"/>
+    <circle cx="284" cy="116" r="20"/><circle cx="284" cy="244" r="20"/>
+  </g>
+
+  <!-- skull -->
+  <g transform="translate(200,180)">
+    <ellipse cx="0" cy="-8" rx="62" ry="58" fill="#f5f1e6"/>
+    <rect x="-34" y="34" width="68" height="34" rx="14" fill="#f5f1e6"/>
+    <circle cx="-24" cy="-6" r="16" fill="#0b2a4a"/>
+    <circle cx="24" cy="-6" r="16" fill="#0b2a4a"/>
+    <path d="M -8 22 L 0 8 L 8 22 Z" fill="#0b2a4a"/>
+    <g stroke="#0b2a4a" stroke-width="4">
+      <line x1="-18" y1="40" x2="-18" y2="62"/>
+      <line x1="0" y1="40" x2="0" y2="64"/>
+      <line x1="18" y1="40" x2="18" y2="62"/>
+    </g>
+    <!-- straw hat -->
+    <ellipse cx="0" cy="-44" rx="92" ry="22" fill="url(#straw)" stroke="#b9831f" stroke-width="3"/>
+    <path d="M -52 -48 Q 0 -104 52 -48 Z" fill="url(#straw)" stroke="#b9831f" stroke-width="3"/>
+    <rect x="-52" y="-58" width="104" height="14" rx="6" fill="#c0392b"/>
+  </g>
+
+  <!-- title -->
+  <text x="380" y="150" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" fill="#f5f1e6">AGENTIC</text>
+  <text x="380" y="222" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" fill="#f4c542">ONE PIECE</text>
+  <text x="384" y="262" font-family="Helvetica, Arial, sans-serif" font-size="20" letter-spacing="3" fill="#9bb8d3">A STRAW-HAT CREW OF CLAUDE CODE SKILLS</text>
+</svg>
